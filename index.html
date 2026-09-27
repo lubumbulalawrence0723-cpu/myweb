@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+
+<body>
+  <header>
+    <h1>My Student Website</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#photos">My Photos</a>
+    <a href="#media">My Media</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+        <p>
+  My name is Lawrence Lubumbula, and I am studying Bachelor of Science in Cyber Security at Mulungushi
+  University. I am interested in learning how websites are created and how
+  they can help people share information. In this activity, I am practising
+  HTML and CSS by building a website about myself. I hope to improve my
+  coding skills and learn how to make web pages clear, useful, and easy to use.
+</p>
+    </section>
+
+    <section id="hobbies">
+      <h2>My Hobbies</h2>
+      <ul>
+  <li>learning new things</li>
+  <li>solving difficult problems</li>
+  <li>listening to music</li>
+</ul>
+    </section>
+
+    <section id="learning-plan">
+      <h2>My Learning Plan</h2>
+       <ol>
+  <li>Practise writing basic HTML elements.</li>
+  <li>Use CSS to style a small web page.</li>
+  <li>Build a page and test it at different screen sizes.</li>
+</ol>
+
+<table>
+  <caption>My weekly web learning plan</caption>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Topic</th>
+      <th>Practice task</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Monday</td>
+      <td>HTML</td>
+      <td>Create headings and paragraphs.</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>CSS</td>
+      <td>Style colors, spacing, and fonts.</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Responsive design</td>
+      <td>Check the page at a phone-sized width.</td>
+    </tr>
+  </tbody>
+</table>
+    </section>
+
+    <section id="photos">
+      <h2>My Photos</h2>
+      <figure>
+  <img src="images/photo1.jpg.jpg" alt="Describe what is shown in the first photo">
+  <figcaption>looking at the camera.</figcaption>
+</figure>
+
+<figure>
+  <img src="images/photo2.jpg.jpg" alt="Describe what is shown in the second photo">
+  <figcaption>covering mouth</figcaption>
+</figure>
+
+<figure>
+  <img src="images/photo3.jpg.jpg" alt="Describe what is shown in the third photo">
+  <figcaption>finger on chin.</figcaption>
+</figure>
+    </section>
+
+    <section id="media">
+      <h2>My Media</h2>
+      <h3>My introduction video</h3>
+<p>This video introduces me, my programme, and a web skill I hope to learn.</p>
+<video controls>
+  <source src="videos/intro.mp4.mp4" type="video/mp4">
+  Your browser does not support video playback.
+</video>
+<p>
+  Video summary: I introduce myself, explain what I study, and describe a web
+  skill I want to improve.
+</p>
+
+<h3>My audio recording</h3>
+<audio controls>
+  <source src="videos/audio.m4a" type="audio/mpeg">
+  Your browser does not support audio playback.
+</audio>
+<p>This recording describes my hobby or reason for studying web technologies.</p>
+<section id="about" class="content-section">
+  <h2>About Me</h2>
+  <!-- About Me content -->
+</section>
+
+<section id="contact" class="content-section">
+  <h2>Contact</h2>
+  <!-- Contact form -->
+</section>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#" method="get">
+  <p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </p>
+
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </p>
+
+  <p>
+    <label for="topic">Topic:</label>
+    <input type="text" id="topic" name="topic">
+  </p>
+
+  <p>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </p>
+
+  <button type="submit">Submit</button>
+</form>
+
+<p>This is a browser demonstration form. It does not send data.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Thank you for visiting my website.</p>
+  </footer>
+</body>
+</html>

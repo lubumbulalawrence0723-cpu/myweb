@@ -1,0 +1,191 @@
+/* Basic page style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #24303f;
+  background-color: #f2f6fa;
+}
+
+/* Header and page title */
+header {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  background-color: #174a6e;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  padding: 1rem;
+  text-align: center;
+  background-color: #dceaf3;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0.25rem 0.5rem;
+  color: #174a6e;
+  font-weight: bold;
+}
+
+/* Link hover and keyboard focus */
+a:hover,
+a:focus {
+  color: #a33b20;
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  width: min(900px, 92%);
+  margin: 2rem auto;
+}
+
+/* Repeated section style: class selector */
+.content-section {
+  margin: 1rem 0;
+  padding: 1.25rem;
+  border: 1px solid #b8cbd8;
+  border-radius: 8px;
+  background-color: white;
+}
+
+/* Unique style: ID selector */
+#contact {
+  background-color: #e8f2f7;
+}
+
+/* Section headings */
+h2 {
+  color: #174a6e;
+}
+
+/* Photo gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+figure {
+  margin: 0;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  display: block;
+  border-radius: 6px;
+}
+
+figcaption {
+  margin-top: 0.4rem;
+}
+
+/* Media players */
+audio,
+video {
+  display: block;
+  width: 100%;
+  margin: 0.75rem 0;
+}
+
+/* Learning-plan table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+caption {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 0.65rem;
+  border: 1px solid #9aafbd;
+  text-align: left;
+}
+
+th {
+  color: white;
+  background-color: #174a6e;
+}
+
+/* Contact form */
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 500px;
+  padding: 0.65rem;
+  border: 1px solid #788c99;
+  border-radius: 4px;
+  font: inherit;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  background-color: #174a6e;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #a33b20;
+}
+
+/* Footer */
+footer {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #174a6e;
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  main {
+    width: 94%;
+    margin: 1rem auto;
+  }
+
+  .content-section {
+    padding: 1rem;
+  }
+
+  nav a {
+    margin: 0.35rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+}
